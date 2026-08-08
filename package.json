@@ -1,0 +1,36 @@
+{
+  "name": "matchers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potykalov/matchers.git"
+  },
+  "keywords": [],
+  "author": "Dmitriy Potykalov <dmitriy.potykalov@gmail.com> (https://github.com/potykalov)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/potykalov/matchers/issues"
+  },
+  "homepage": "https://github.com/potykalov/matchers#readme",
+  "dependencies": {
+    "core-js": "^3.50.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.4.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.9.0",
+    "jest": "^30.4.2"
+  }
+}
